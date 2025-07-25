@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Chủ đề màu xanh dương gradient -->
+    <color name="primary_blue">#FF1E88E5</color>
+    <color name="primary_blue_dark">#FF1565C0</color>
+    <color name="primary_blue_light">#FF42A5F5</color>
+    <color name="accent_orange">#FFFF9800</color>
+    <color name="accent_orange_dark">#FFF57C00</color>
+    <color name="background_gray">#FFF5F5F5</color>
+    <color name="text_dark">#FF212121</color>
+    <color name="text_light">#FF757575</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    
+    <!-- Màu cho seekbar -->
+    <color name="seekbar_progress">#FF1E88E5</color>
+    <color name="seekbar_secondary">#FFBBDEFB</color>
+</resources>

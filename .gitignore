@@ -1,0 +1,24 @@
+*.iml
+.gradle
+/local.properties
+/.idea/
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Log files
+*.log
+hs_err_pid*.log
+replay_pid*.log
+
+# Backup files
+*~
+*.bak
+*.tmp
+
+# OS generated files
+Thumbs.db
+ehthumbs.db

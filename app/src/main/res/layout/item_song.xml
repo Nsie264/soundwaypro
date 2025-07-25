@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/song_item_background"
+    android:padding="16dp"
+    android:layout_marginHorizontal="12dp"
+    android:layout_marginVertical="6dp"
+    android:elevation="2dp">
+
+    <!-- Song Icon with circular background -->
+    <LinearLayout
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:background="@drawable/play_button_background"
+        android:gravity="center">
+        
+        <ImageView
+            android:id="@+id/songIcon"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:importantForAccessibility="no"
+            android:src="@drawable/ic_music_note"
+            android:tint="@color/white" />
+    </LinearLayout>
+
+    <!-- Song Info -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginStart="16dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/songTitle"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="@color/text_dark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:ellipsize="end" />
+
+        <TextView
+            android:id="@+id/songArtist"
+            android:textSize="14sp"
+            android:textColor="@color/text_light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:maxLines="1"
+            android:ellipsize="end" />
+    </LinearLayout>
+
+    <!-- Duration or status indicator -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="♪"
+        android:textSize="20sp"
+        android:textColor="@color/accent_orange"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="8dp" />
+</LinearLayout>

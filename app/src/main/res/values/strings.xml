@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SoundWave Pro</string>
+    <string name="play_music">Phát nhạc</string>
+    <string name="pause_music">Tạm dừng</string>
+    <string name="music_library">Thư viện nhạc</string>
+    <string name="now_playing">Đang phát</string>
+</resources>
